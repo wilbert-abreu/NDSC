@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PeopleListViewController.h
 //  UITableView
 //
 //  Created by Wilbert Abreu on 3/31/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PeopleListViewController : UITableViewController
 
 @end
