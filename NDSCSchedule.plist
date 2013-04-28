@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Friday, March 29, 2013</key>
+	<array>
+		<dict>
+			<key>Event Name</key>
+			<string>Registration</string>
+			<key>Date</key>
+			<string>Friday, March 29, 2013</string>
+			<key>Time</key>
+			<string>5:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Open Mic</string>
+			<key>Date</key>
+			<string>Friday, March 29, 2013</string>
+			<key>Time</key>
+			<string>8:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Dominican Comedy Show ft. Vladimir Caamano </string>
+			<key>Date</key>
+			<string>Friday, March 29, 2013</string>
+			<key>Time</key>
+			<string>10:00 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+	</array>
+	<key>Saturday, March 30, 2013</key>
+	<array>
+		<dict>
+			<key>Event Name</key>
+			<string>Breakfast</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>8:00 am</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Registration</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>8:00 am</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Welcome</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>9:00 am</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Dominican Success Stories</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>9:30 am</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Lunch</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>11:30 am</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Mami Echate Pa &apos;Ka: The Hyper-Sexualization of Women</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>1:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>The Truth Behind Bars: The Prison Industrial Complex</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>1:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Dominican York Proyecto Grafica Art Exhibit Q&amp;A</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>3:00 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Breakout Session: Decolonizing our Minds</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>3:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Breakout Session: Mete Mano Por el Cambio</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>3:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Breakout Session: Republica Dominicana Despierta</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>3:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Breakout Session: Students Making Change</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>3:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Breakout Session: Transforming Community</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>3:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Break</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>4:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>E Pa&apos;lante Que Vamos: Organizational Fair</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>5:00 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Groups A: Dinner and Networking</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>5:00 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Groups B &amp; C: Dinner and Networking</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>6:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Keynote Address</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>8:00 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Male Fe Photo Signing</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>10:00 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Party Con Lo Pie</string>
+			<key>Date</key>
+			<string>Saturday, March 30, 2013</string>
+			<key>Time</key>
+			<string>10:30 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+	</array>
+	<key>Sunday, March 31, 2013</key>
+	<array>
+		<dict>
+			<key>Event Name</key>
+			<string>Mangu Breakfast</string>
+			<key>Date</key>
+			<string>Sunday, March 31, 2013</string>
+			<key>Time</key>
+			<string>10:00 am</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Closing Remarks</string>
+			<key>Date</key>
+			<string>Sunday, March 31, 2013</string>
+			<key>Time</key>
+			<string>11:30 am</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+		<dict>
+			<key>Event Name</key>
+			<string>Shuttle Departure</string>
+			<key>Date</key>
+			<string>Sunday, March 31, 2013</string>
+			<key>Time</key>
+			<string>12:00 pm</string>
+			<key>Location</key>
+			<string>Beckham Hall</string>
+			<key>Address</key>
+			<string>45 Wyllys Avenue Middletown,CT 06459</string>
+			<key>About</key>
+			<string>Please come to beckham Hall between...</string>
+		</dict>
+	</array>
+</dict>
+</plist>

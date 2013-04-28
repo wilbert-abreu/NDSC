@@ -7,25 +7,39 @@
 //
 
 #import "PersonDetailViewController.h"
+@interface PersonDetailViewController ()
+
+@end
 
 @implementation PersonDetailViewController
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+
 {
-    self = [super initWithFrame:frame];
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Initialization code
+        // Custom initialization
     }
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(void) viewDidLoad
 {
-    // Drawing code
+    [super viewDidLoad];
+    
+    self.fnameLabel.text = self.person.fname;
+    self.snameLabel.text = self.person.sname;
+    self.ageLabel.text = [NSString stringWithFormat:@"%d",self.person.age];
+    
+    [self.view setBackgroundColor:self.person.favoriteColor];
+    
 }
-*/
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 
 @end

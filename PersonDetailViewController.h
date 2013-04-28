@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Person.h"
 
-@interface PersonDetailViewController : UIView
+@interface PersonDetailViewController : UIViewController
+
+@property(weak) IBOutlet UILabel *fnameLabel;
+@property(weak) IBOutlet UILabel *snameLabel;
+@property(weak) IBOutlet UILabel *ageLabel;
+
+@property(strong) Person *person;
+
 
 @end

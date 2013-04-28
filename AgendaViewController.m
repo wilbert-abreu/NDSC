@@ -1,27 +1,24 @@
 //
-//  PeopleListViewController.m
-//  UITableView
+//  AgendaViewController.m
+//  NDSC APP
 //
-//  Created by Wilbert Abreu on 3/31/13.
+//  Created by Wilbert Abreu on 4/28/13.
 //  Copyright (c) 2013 WAA Apps. All rights reserved.
 //
 
-#import "PeopleListViewController.h"
-#import "Person.h" //list of people - 4
-#import "PersonDetailViewController.h"
-#import "MasterCell.h"
+#import "AgendaViewController.h"
+#import "AgendaCell.h"
 
-@interface PeopleListViewController ()
+#define fridaySection 0
+#define saturdaySection 1
+#define sundaySection 2
+#define numberOfSections 3
 
-//creates list of people - 1 
-@property(strong)NSArray *people;
+@interface AgendaViewController ()
 
 @end
 
-@implementation PeopleListViewController
-
-//list of people - 2 
-@synthesize people;
+@implementation AgendaViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -39,22 +36,27 @@
     self.navigationController.navigationBar.topItem.title = @"AGENDA";
     
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
+    NSString *plistCatPath = [[NSBundle mainBundle] pathForResource:@"NDSCSchedule" ofType:@"plist"];
+    NSDictionary *creatureDictionary = [[NSDictionary alloc] initWithContentsOfFile:plistCatPath];
     
-    //list of people - 5
-    Person *p1 = [[Person alloc] initWithFname:@"Scott" sname:@"Sherwood" color:[UIColor purpleColor] age:30];
+    self.FridayArray = creatureDictionary[@"Friday, March 29, 2013"];
+    self.SaturdayArray  = creatureDictionary[@"Saturday, March 30, 2013"];
+    self.SundayArray = creatureDictionary[@"Sunday, March 31, 2013"];
+
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
+ 
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-     Person *p2= [[Person alloc] initWithFname:@"Janet" sname:@"Smith" color:[UIColor blueColor] age:26];
-    Person *p3= [[Person alloc] initWithFname:@"John" sname:@"Blogs" color:[UIColor redColor] age:20];
-    
-    //list of people - 6 instantiate's the array
-    self.people = [NSArray arrayWithObjects:p1, p2, p3, nil];
     
     // Remove table cell separator
-    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleSingleLine];
     
     // Assign our own backgroud for the view
     self.parentViewController.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"NDSCBackground"]];
@@ -64,14 +66,8 @@
     UIEdgeInsets inset = UIEdgeInsetsMake(15, 0, 10, 0);
     self.tableView.contentInset = inset;
     
-    //list of people - 3 instantiates list of people 
-    //self.people = [NSArray array];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    [[self navigationItem] setBackBarButtonItem:backButton];
 }
 
 - (void)didReceiveMemoryWarning
@@ -80,52 +76,68 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    
-    if([segue.identifier isEqualToString:@"PersonDetailSegue"]){
-        //sender is UITbale view cell
-        UITableViewCell *cell = (UITableViewCell *)sender;
-        //tries to find which object that object cell represents
-        //asks the table that we control to get the "index path of the cell that's been tapped 
-        NSIndexPath *ip = [self.tableView indexPathForCell:cell];
-        //gets person from people list that is at the row that is represented by the cell
-        Person *p = [self.people objectAtIndex:ip.row];
-    
-        //sets the detailview controllers person object to the one repres
-        PersonDetailViewController *pdvc = (PersonDetailViewController *)segue.destinationViewController;
-        pdvc.person = p;
-        
-    }
-}
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1
-    ;
+    return numberOfSections;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    switch (section){
+        case fridaySection:
+            //return [self.bugs count];
+            return [self.FridayArray count];
+        case saturdaySection:
+            //return [self.animals count];
+            return [self.SaturdayArray count];
+        case sundaySection:
+            //return [self.animals count];
+            return [self.SundayArray count];
+        default:
+            return 0;
+    }
+}
 
-    return [self.people count]; //equals number of people in list
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    switch (section){
+        case fridaySection:
+            return @"Friday, March 29, 2013";
+        case saturdaySection:
+            return @"Saturday, March 30, 2013";
+        case sundaySection:
+            return @"Sunday, March 31, 2013";
+        default:
+            return 0;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //must go to storyboard, click on cell and put "cell" as identifying in attributes
-    static NSString *CellIdentifier = @"Cell";
-    MasterCell *cell = (MasterCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    AgendaCell *cell = (AgendaCell *)[tableView dequeueReusableCellWithIdentifier:@"agenda"];
     
-    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+    switch (indexPath.section)
+    {
+            
+        case fridaySection:
+            cell.firstLabel.text = self.FridayArray[indexPath.row][@"Event Name"];
+            cell.secondLabel.text = self.FridayArray[indexPath.row][@"Time"];
+            break;
+        case saturdaySection:
+            cell.firstLabel.text = self.SaturdayArray[indexPath.row][@"Event Name"];
+            cell.secondLabel.text = self.SaturdayArray[indexPath.row][@"Time"];
+            break;
+        case sundaySection:
+            cell.firstLabel.text = self.SundayArray[indexPath.row][@"Event Name"];
+            cell.secondLabel.text = self.SundayArray[indexPath.row][@"Time"];
+            break;
+        default:
+            cell.firstLabel.text = @"Not Found";
+            break;
+    }
     
-    Person *p1 = [self.people objectAtIndex:indexPath.row]; // finds the person that this cell represents gets the person out of the peole list
-    
-    //sets the text on that label to the person first name
-    cell.textLabel.text = p1.fname; 
-
     return cell;
 }
 
